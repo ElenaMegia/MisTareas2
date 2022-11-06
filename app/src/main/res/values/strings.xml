@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MisTareas2</string>
+    <string name="button_pendientes">Pendientes</string>
+    <string name="button_hechas">hechas</string>
+    <string name="titulo1">Lista de Tareas</string>
+    <string name="anadir_tarea">Lista de Tareas</string>
+    <string name="titulo">Nueva Tarea</string>
+    <string name="nombre">Nombre</string>
+    <string name="desc">Descripción</string>
+    <string name="fecha">Fecha</string>
+    <string name="prioridad">Prioridad</string>
+    <string name="coste">Coste</string>
+    <string name="registrartarea">Registrar</string>
+    <string name="cancelartarea">Cancelar</string>
+    <string name="volver">Volver</string>
 </resources>

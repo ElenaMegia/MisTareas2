@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="412dp"
+        android:layout_height="648dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/black"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tarea"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="#2196F3"
+            android:text="Tarea"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titulo_de_la_tarea"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="titulo_de_la_tarea"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descripcion_de_la_tarea"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:text="descripcion_de_la_tarea"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fecha_de_la_tarea"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:text="fecha_de_la_tarea"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/prioridad_de_la_tarea"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="prioridad_de_la_tarea"
+            android:textAllCaps="true"
+            android:textColor="#F80000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/otros"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:text="otros"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_volver"
+        android:layout_width="397dp"
+        android:layout_height="72dp"
+        android:background="@color/black"
+        android:text="@string/volver"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
